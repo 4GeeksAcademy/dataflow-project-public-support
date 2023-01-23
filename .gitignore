@@ -3,6 +3,7 @@ sources/*
 
 # exception to the rule
 !sources/.gitkeep 
+!sources/slack_support_channels.csv
 
 # exclude the pipeline outputs
 output/*

@@ -13,7 +13,7 @@ pipelines:
       - slack_support_channels
     destination: cleaned-answers-publicsupport
     transformations:
-      - new_columns
+      # - new_columns
       - answers_dataframe
 
   - slug: "merge_messages_publicsupport"
